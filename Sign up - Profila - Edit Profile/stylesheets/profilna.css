@@ -1,0 +1,170 @@
+/* line 9, ../sass/profilna.scss */
+body {
+  background: #f0f0f0;
+  font-family: cursive;
+}
+
+/* line 13, ../sass/profilna.scss */
+#cela-strana {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 18, ../sass/profilna.scss */
+#profil-well {
+  margin-top: 40px;
+  background-color: #eaeaea;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+}
+
+/* line 29, ../sass/profilna.scss */
+#profil-strana {
+  margin-top: 20px;
+}
+
+/* line 33, ../sass/profilna.scss */
+#pofil-slika-div {
+  background-color: white;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+/* line 39, ../sass/profilna.scss */
+#profilna-slika {
+  float: left;
+}
+
+/* line 43, ../sass/profilna.scss */
+#profil-podaci {
+  background-color: white;
+  padding-top: 20px;
+  border-radius: 3px;
+}
+
+/* line 50, ../sass/profilna.scss */
+#profil-buttons {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+/* line 55, ../sass/profilna.scss */
+#profil-buttons #friend-button {
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #01A9DB;
+  color: white;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 3px;
+  outline-style: none;
+}
+/* line 67, ../sass/profilna.scss */
+#profil-buttons #friend-button:hover {
+  background: #1fae66;
+}
+/* line 72, ../sass/profilna.scss */
+#profil-buttons #msg-button {
+  width: 100%;
+  background-color: #01A9DB;
+  color: white;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 3px;
+  outline-style: none;
+}
+/* line 83, ../sass/profilna.scss */
+#profil-buttons #msg-button:hover {
+  background: #1fae66;
+  background: #1fae66;
+  -webkit-transition: background-color 0.4s ease;
+  -moz-transition: background-color 0.4s ease;
+  -o-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+}
+
+/* line 95, ../sass/profilna.scss */
+#tabela-podaci {
+  padding: 20px;
+}
+
+/* line 99, ../sass/profilna.scss */
+.izmeni-prof-dugme {
+  background-color: #01A9DB;
+  color: white;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 20px;
+  outline-style: none;
+}
+/* line 110, ../sass/profilna.scss */
+.izmeni-prof-dugme:hover {
+  background: #1fae66;
+  background: #1fae66;
+  -webkit-transition: background-color 0.4s ease;
+  -moz-transition: background-color 0.4s ease;
+  -o-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+}
+
+/* line 121, ../sass/profilna.scss */
+.profil-ikona {
+  margin-left: 20px;
+}
+
+/* line 125, ../sass/profilna.scss */
+#friends-deo {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+/* line 133, ../sass/profilna.scss */
+#friends-deo-row {
+  margin: 0 auto;
+}
+
+/* line 137, ../sass/profilna.scss */
+#skills-deo {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+/* line 145, ../sass/profilna.scss */
+.vidi-sve-prijatelje {
+  background-color: #01A9DB;
+  color: white;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 20px;
+  margin-top: 5px;
+  width: 100%;
+  outline-style: none;
+}
+/* line 158, ../sass/profilna.scss */
+.vidi-sve-prijatelje:hover {
+  background: #1fae66;
+  -webkit-transition: background-color 0.4s ease;
+  -moz-transition: background-color 0.4s ease;
+  -o-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+}

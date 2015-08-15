@@ -1,0 +1,50 @@
+$pozadina: #f0f0f0;
+$dugmici: #01A9DB;
+$dugmici-hover: #1fae66;
+
+
+body {
+	background-color: $pozadina;
+	font-family: cursive;
+	font-size: 16px;
+}
+
+#edit {
+	background: white;
+	border-radius: 3px;
+	color: black;
+	margin-top: 10%;
+	margin-bottom: 30px;
+	-webkit-box-shadow: 2px -1px 15px 6px rgba(0,0,0,0.48);
+	-moz-box-shadow: 2px -1px 15px 6px rgba(0,0,0,0.48);
+	box-shadow: 2px -1px 15px 6px rgba(0,0,0,0.48);
+}
+
+input {
+	width: 100%;
+	margin-top: -3px;
+	margin-bottom: 10px;
+}
+
+textarea {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+#potvrdi-dugme  {
+  background: $dugmici;
+  color: white;
+  border-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-transition: background-color 0.4s ease;
+  -moz-transition: background-color 0.4s ease;
+  -o-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+
+  &:hover {
+  	background: $dugmici-hover;
+  }
+}
+

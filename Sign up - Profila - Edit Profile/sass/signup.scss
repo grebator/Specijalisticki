@@ -1,0 +1,82 @@
+$nav-background: #5bc0de; 
+$nav-active: #89daf2;
+$box-color: solid navy;
+
+body {
+	background-image: url('../img/img1-dark.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+
+#register {
+	margin-top: 10%;
+}
+
+
+#register-dugme {
+	font-size: 18px;   			//
+	border-radius: 0px;			//  Sign in dugme
+	height: 45px;				//	u okviru login forme
+	width: 100%;				// 
+	opacity: 0.9;
+}
+
+#inputEmail3, #inputPassword3 {
+	border-radius: 0px;			//
+	height: 45px;				// Polja username i password
+	opacity: 0.9;				// 
+	width: 100%;
+}
+
+#uslovi {
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+
+#forma-background {
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 5px;
+}
+
+
+#naslov {
+	color: white;
+	font-weight: bold;
+}
+
+// ======= Navbar ========= 
+.navbar, .navbar-default, .navbar-collapse, .navbar-form, #logo {
+    background-color: $nav-background;
+    color: white;
+    background: transparent;
+}
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a {		//
+	color: white;						//  navbar - link
+	font-weight: bold;	
+	opacity: 1;							//
+	font-size: 15px;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover  {
+	background-color: transparent; 		//
+	color:  rgba(0,0,0,0.7);				    //  navbar active color
+	font-weight: bold;	
+	opacity: 1;							//
+}
+
+.navbar-brand {
+	color: white;
+}
+// =========== End of navbar =================

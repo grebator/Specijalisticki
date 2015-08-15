@@ -1,0 +1,166 @@
+$pozadina1: #1fae66;
+$pozadina2: #A9D0F5;
+$pozadina3: #f0f0f0;
+$pozadina4: #eaeaea;
+$dugmici: #01A9DB;
+$dugmici-hover: #1fae66;
+
+
+body {
+	background: $pozadina3;
+	font-family: cursive;
+}
+#cela-strana {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#profil-well {
+	margin-top: 40px;
+	background-color: $pozadina4;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	border-radius: 3px;
+}
+
+#profil-strana {
+	margin-top: 20px;
+}
+
+#pofil-slika-div {
+	background-color: white;
+	padding: 15px;
+	border-radius: 3px;
+}
+
+#profilna-slika {
+	float: left;
+}
+
+#profil-podaci {
+	background-color: white;
+	padding-top: 20px;
+	border-radius: 3px;
+}
+
+
+#profil-buttons {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	
+	#friend-button {
+		margin-bottom: 10px;
+		width: 100%;
+		background-color: $dugmici;
+		color: white;
+		font-weight: bold;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border: none;
+		border-radius: 3px;
+		outline-style: none;
+
+		&:hover {
+			background: $dugmici-hover;
+		}
+	}
+	
+	#msg-button {
+		width: 100%;
+		background-color: $dugmici;
+		color: white;
+		font-weight: bold;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border: none;
+		border-radius: 3px;
+		outline-style: none;
+
+		&:hover {
+			background: $dugmici-hover;
+			background: $dugmici-hover;
+			-webkit-transition: background-color 0.4s ease;
+    		-moz-transition: background-color 0.4s ease;
+    		-o-transition: background-color 0.4s ease;
+    		transition: background-color 0.4s ease;
+		}
+	
+	}
+}
+
+#tabela-podaci {
+	padding: 20px;
+}
+
+.izmeni-prof-dugme {
+	background-color: $dugmici;
+	color: white;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	border-radius: 3px;
+	margin-right: 20px;
+	outline-style: none;
+
+	&:hover {
+		background: $dugmici-hover;
+		background: $dugmici-hover;
+		-webkit-transition: background-color 0.4s ease;
+    	-moz-transition: background-color 0.4s ease;
+    	-o-transition: background-color 0.4s ease;
+    	transition: background-color 0.4s ease;
+	}
+}
+
+
+.profil-ikona {
+	margin-left: 20px;
+}
+
+#friends-deo {
+	background-color: white;
+	color: black;
+	padding: 10px 20px;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+
+#friends-deo-row {
+	margin: 0 auto;
+}
+
+#skills-deo {
+	background-color: white;
+	color: black;
+	padding: 10px 20px;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+
+.vidi-sve-prijatelje {
+	background-color: $dugmici;
+	color: white;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	border-radius: 3px;
+	margin-right: 20px;
+	margin-top: 5px;
+	width: 100%;
+	outline-style: none;
+
+	&:hover {
+		background: $dugmici-hover;
+		-webkit-transition: background-color 0.4s ease;
+    	-moz-transition: background-color 0.4s ease;
+    	-o-transition: background-color 0.4s ease;
+    	transition: background-color 0.4s ease;
+	}
+}
+

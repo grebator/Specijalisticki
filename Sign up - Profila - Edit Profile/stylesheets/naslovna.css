@@ -1,0 +1,102 @@
+/* line 16, ../sass/naslovna.scss */
+body {
+  margin-top: 50px;
+  background-color: #f0f0f0;
+}
+
+/* line 22, ../sass/naslovna.scss */
+#naslovna {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-top-style: solid;
+  border-top-color: #01A9DB;
+  border-width: 5px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+/* line 33, ../sass/naslovna.scss */
+#postovi {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-top-style: solid;
+  border-top-color: #01A9DB;
+  border-width: 5px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+/* line 44, ../sass/naslovna.scss */
+.friends-post {
+  margin: 20px 0;
+  padding: 10px;
+  border-style: solid;
+  border-color: #01A9DB;
+  border-width: 2px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+/* line 54, ../sass/naslovna.scss */
+.profile-pic {
+  display: block;
+  margin: auto auto;
+}
+
+/* line 59, ../sass/naslovna.scss */
+#profile-name {
+  margin-top: 10px;
+  background-color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-top-style: solid;
+  border-top-color: #01A9DB;
+  border-width: 5px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+/* line 72, ../sass/naslovna.scss */
+.ostale-info {
+  font-size: 14px;
+}
+
+/* line 76, ../sass/naslovna.scss */
+#following-friends {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-top-style: solid;
+  border-top-color: #01A9DB;
+  border-width: 5px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+/* line 87, ../sass/naslovna.scss */
+.buttons {
+  background: #f88300;
+  color: white;
+  border-style: none;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  -webkit-transition: background-color 0.4s ease;
+  -moz-transition: background-color 0.4s ease;
+  -o-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+}
+/* line 99, ../sass/naslovna.scss */
+.buttons:hover {
+  background: #01A9DB;
+}
+
+/* line 104, ../sass/naslovna.scss */
+textarea {
+  border-radius: 3px;
+  outline-style: none;
+  padding: 10px;
+}
